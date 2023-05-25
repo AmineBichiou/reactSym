@@ -46,14 +46,14 @@ const AddResponse = () => {
         },
       });
       console.log('Response added successfully');
-      navigate("/showReponse/" + id);
+      navigate("/showResponse/" + id);
     } catch (error) {
       console.error(error);
     }
   };
 
   const handleReturn = () => {
-    navigate("/showReponse/" + id);
+    navigate("/showResponse/" + id);
   };
 
   const handleSolutionChange = event => {
